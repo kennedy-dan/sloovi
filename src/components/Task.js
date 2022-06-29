@@ -56,6 +56,7 @@ const Task = () => {
   return (
     <div className="flex justify-center">
       <div>
+        <p className="font-bold text-lg">// Could not complete the add task because i was getting CORS error when making the post request to the api provided</p>
         <div className="bg-gray-300  h-10 w-80 flex justify-between items-center">
           <p>Tasks</p>
           <GrFormAdd onClick={newTask} />
